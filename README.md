@@ -4,7 +4,7 @@
 
 For English, please see [README.EN.md](README.EN.md).
 
-编译支持 bbr-v3 的 linux 内核为 deb/rpm 格式。
+编译支持 bbr-v3 的 linux 内核为 deb/rpm 格式。https://github.com/Tangx01/bbr-v3-pkg/blob/master/README.md
 
 ## 安装
 
@@ -36,3 +36,7 @@ sysctl net.ipv4.tcp_available_congestion_control
 ```
 
 如果想启用 bbrv3，流控算法应设置为 `bbr`，如果想使用早期版本的 bbr，流控算法应设置为 `bbr1`。
+
+赞助声明：
+本项目由 VTEXS 的「开源项目免费 VPS 计划」提供算力支持。
+感謝 VTEXS 对开源社区的支持!
